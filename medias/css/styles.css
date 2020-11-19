@@ -1,26 +1,20 @@
 body {
+    background-color: whitesmoke;
     margin: auto ;
     padding: auto ;
-    background-image: url("../media/background.jpg");
-    background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-}.show{
+    
+}
+.show{
     animation-name: slideShow-animation;
     animation-duration: 5s;
 }
-.content{
-    text-align:center;
-    color: lightblue;
-}
+.content{text-align:center;padding-top:50px;}
 #navigation {
     list-style-type: none;
     margin: 0;
-    top: 0;
-    color: white;
     overflow: hidden;
     background-color: black;
-    border: 1px solid;
+    box-shadow: 0px 5px 20px grey;
     }
 #navigation li{float: right ;padding-right: 10px;}
 
@@ -37,18 +31,16 @@ body {
     box-shadow: 5px 10px 10px white;
 }
 .selfie{
-    width: 375px;
-    height: 534px;
-    box-shadow: 5px 5px 5px  black;
+    width: 450px;
+    height: 640px;
+    box-shadow: 0px 5px 5px 5px  grey;
 }
 table {
-    width:100%; 
-    color:whitesmoke;
+    width:100%;
 }
 table th {
-    padding-top: 50px;
+    padding-top: 20px;
     border: 1px  solid;
-    
 }
 table td {
     padding-top: 50px;
@@ -57,8 +49,8 @@ table td {
 footer {
     text-align: center;
     position:fixed;
-    color:whitesmoke;
     border: 1px solid;
+    box-shadow: 5px 10px 15px black;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
