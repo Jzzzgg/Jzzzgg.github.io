@@ -20,22 +20,174 @@
               <th>Name</th>
               <th>Description</th> 
               <th>Tools</th>
+              <th>Day</th>
             </tr>
             <tr>
-              <td><img class = "project" src="medias/media/javaProject.png" alt="Java Server and Client" ></td>
-              <td>Smith</td>
-              <td>50</td>
+              <td><img class = "project_image" style="width:  500px;height: 500px;" src="medias/media/javaProject.png" alt="Connect Four Image" >
+                <br>Java Connect Four</td>
+              <td>
+                <ul class="project_des">
+                  <li>On the left is a Java board game.
+                     <br>Top side is server and the botton side is client, they are both completed with Javax.swing.</li>
+                  <li style="font-weight: bolder;"><br>Server</li>
+                  <li>
+                      <ul>
+                        <li>Display the IP address of the current device. </li>
+                        <li>Able to connect multiple clients by multithread.</li>
+                        <li>Run the game logic and send the data to the corresponding client.</li>
+                      </ul>                    
+                  </li>
+                  <li style="font-weight: bolder;"><br>Client</li>
+                  <li>
+                    <ul>
+                      <li>Able to connect the server by IP address.</li>
+                      <li>Able to receive the data sent from the server.</li>
+                      <li>Perform different functions according to the transmitted data</li>
+                      <li>Comes with a chat system</li>
+                    </ul>    
+                  </li>
+                </ul>
+              </td>
+              <td>Java8: JGrasp</td>
+              <td>October - December 2017</td>
             </tr>
+            
             <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
+              <td><img class = "OSPF2&3 topology" style="width:  660px;height: 380px;" src="medias/media/OSPFExperiment.png" alt="OSPF experiment topology" >
+              <br>OSPF2&3 Experiment</td>
+              <td>
+                <ul class="project_des">
+                  <li style="font-weight: bolder;">Conclusion</li>
+                  <li>
+                    <ul ><br>
+                      <li>The areas can communicate with each other via IPv4.</li>
+                      <li>The routing tables contain the correct information about the other areas.</li>
+                      <li>Routes are not learned when IPv4 is disabled on area 2.</li>
+                      <li>OSPFv3 and OSPFv2 are use many of the same LSA types.</li>
+                      <li>OSPFv3 with IPv4 and IPv6 had twice the overhead</li>
+                      <li>OSPFv3 uses IPsec offered with IPv6</li>
+                    </ul>
+                  </li>
+              </td>
+              <td>Wireshake
+              </td>
+              <td>January - May 2018</td>
             </tr>
+
             <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>80</td>
+              <td><img class = "project_image" style="width:  660px;height: 380px;" src="medias/media/databaseProject.png" alt="Database Project Image" >
+                <br>Database Connectivity and Access
+              </td>
+              <td>
+                <ul class="project_des">
+                  <li>A Java client connected to the MySQL server that able to read data from MySQL.</li>
+                  <li style="font-weight: bolder;"><br>Java Client</li>
+                  <li>
+                      <ul>
+                        <li>Log into the database through the account stored in the database.</li>
+                        <li>Different identities have different functions.</li>
+                        <li>Wrote SQL queries to retrieve data from the database using JDBC and output the data to the Java GUI client.</li>
+                      </ul>                    
+                  </li>
+                  <li style="font-weight: bolder;"><br>MySQL Server</li>
+                  <li>
+                    <ul>
+                      <li>Created tables and keys that to create connection between tables.</li>
+                      <li>Able to execute the SQL queries to insert and modify the data.</li>
+                      <li>Stored Procedures has been used.</li>
+                    </ul>    
+                  </li>
+                </ul>
+
+              </td>
+              <td>Java8: JGrasp
+                <br>MySQL: MySQL Workbench 
+              </td>
+              <td>October - December 2019</td>
             </tr>
+
+            <tr>
+              <td>Steam Database Application
+                <br>(No image)
+              </td>
+              <td>
+                <ul class="project_des">
+                  <li>A Java client for a database application running the Steam Web API</li>
+                  <li style="font-weight: bolder;"><br>Presentation Layer</li>
+                  <li>
+                      <ul>
+                        <li>Ability to display results and XML data.</li>
+                      </ul>                    
+                  </li>
+                  <li style="font-weight: bolder;"><br>Database Layer</li>
+                  <li>
+                    <ul>
+                      <li>Created tables and keys that to create connection between tables.</li>
+                      <li>Wrote SQL queries to retrieve data from the database using JDBC.</li>
+                      <li>Stored Procedures has been used.</li>
+                    </ul>    
+                  </li>
+                  <li>
+                  <li style="font-weight: bolder;"><br>Application Layer</li>
+                    <ul>
+                      <li>Retrieve json data from the Steam Web API.</li>
+                      <li>Stored jason data into hashmap with appID and name.</li>
+                    </ul>   
+                  </li>
+                  <li style="font-weight: bolder;"><br>Business Layer</li>
+                    <ul>
+                      <li>Provide search functions based on name or appID.</li>
+                      <li>It will appear the games contains this wordwhen you choose to search for the name.</li>
+                    </ul>   
+                  </li>
+                </ul>
+              </td>
+              <td>Java8: JGrasp
+                <br>MySQL: MySQL Workbench 
+              </td>
+              <td>February - May 2020</td>
+            </tr>
+
+            <tr>
+              <td><img class = "project_image" style="width:  660px;height: 400px;" src="medias/media/dataMining.png" alt="Data Exploration" >
+                <br>COVID-19 Data Mining </td>
+              <td>
+                <ul class="project_des">
+                  
+                  <li style="font-weight: bolder;"><br>Problem</li>
+                  <li>
+                      <ul>
+                        <li>Analyze the data from the past six months and create a report that advises the client company on which specific condition group in which state of the United States needs the most medical resources.</li>
+                      </ul>                    
+                  </li>
+                  <li style="font-weight: bolder;"><br>Data Exploration</li>
+                  <li>
+                    <ul>
+                      <li>We divide the data into 4 regions, north east, north west, south east and south west.</li>
+                      <li>We also separate the condition group to two sections which is A (Top 6) and B (Bottom 6). </li>
+                      <li>On the left side is the some example of data exploration.</li>
+                    </ul>    
+                  </li>
+                  <li>
+                  <li style="font-weight: bolder;"><br>Data Preprocessing</li>
+                    <ul>
+                      <li>Wrote a script to process the original dataset to make a arff file. </li>
+                      <li>Converted an attribute (death number) to three risk levels (low, medium, high).</li>
+                    </ul>   
+                  </li>
+                  <li style="font-weight: bolder;"><br>Data Mining Techniques</li>
+                    <ul>
+                      <li>Simple k means supervised clustering</li>
+                    </ul>   
+                  </li>
+                </ul>
+              </td>
+              <td>R: RStudio 
+                <br>Weka
+              </td>
+              <td>October - November 2020</td>
+
+            
           </table>
         
         </div>
