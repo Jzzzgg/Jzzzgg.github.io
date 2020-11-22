@@ -1,7 +1,7 @@
 body {
     background-color: whitesmoke;
-    margin: auto ;
-    padding: auto ;
+    margin: 0 ;
+    padding: 0 ;
     
 }
 .show{
@@ -46,16 +46,30 @@ body {
     height: 534px;
     box-shadow: 0px 5px 5px 5px  grey;
 }
-table {
+.project_table {
     width:100%;
 }
-table th {
+.project_table th {
     padding-top: 30px;
     border: 1px  solid;
 }
-table td {
+.project_table td {
     border: 1px  solid;
 }
+.skill_table {
+    background-color: lightblue;
+    margin-left: 10%;;
+    width: 80%;
+    
+}
+.skill_table th{
+    padding-bottom: 50px;
+    border: 1px  solid;
+}
+
+.checked {
+    color: orange;
+  }
 footer {
     text-align: center;
     position: fixed;
